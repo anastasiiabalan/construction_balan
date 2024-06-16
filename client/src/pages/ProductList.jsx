@@ -46,22 +46,16 @@ const ProductList=(item)=>{
         <Container>
             <Navbar/>
             <Announcement/>
-            <Title>Приміщення</Title>
+            <Title>Для консультації і замовлення виробу під ваші заміри перейдіть на вкладку "Чат"</Title>
             <FilterContainer>
                 <Filter>
                     <FilterText>Фільтри:</FilterText>
                     <Select>
-                        <Option disabled selected>Кількість кімнат</Option>
-                        <Option>1</Option>
-                        <Option>2</Option>
-                        <Option>3</Option>
-                    </Select>
-                    <Select>
-                        <Option disabled selected>Тип</Option>
-                        <Option>Купівля</Option>
-                        <Option>Оренда</Option>
-                        <Option>Продаж</Option>
-                        <Option>Обмін</Option>
+                        <Option disabled selected>Категорія</Option>
+                        <Option>Бісер</Option>
+                        <Option>Дерево</Option>
+                        <Option>Полімерна глина</Option>
+                        <Option>Картини</Option>
                     </Select>
                 </Filter>
                 <Filter>
