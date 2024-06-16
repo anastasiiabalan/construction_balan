@@ -86,8 +86,8 @@ const Footer=()=>{
     return (
         <Container>
             <Left>
-                <Logo>Агенство нерухомості</Logo>
-                <Desc>Агенство нерухомості</Desc>
+                <Logo>Садиба ручної роботи</Logo>
+                <Desc>Садиба ручної роботи</Desc>
                 <SocialContainer>
                     <SocialIcon color="3B5999">
                         <Facebook/>
@@ -105,15 +105,14 @@ const Footer=()=>{
                 <List>
                     <ListItem>Головна сторінка</ListItem>
                     <ListItem>Купівля</ListItem>
-                    <ListItem>Обмін</ListItem>
-                    <ListItem>Продаж</ListItem>
-                    <ListItem>Мій акаунт</ListItem>
-                    <ListItem>Вподобане</ListItem>
+                    <ListItem>Повернення</ListItem>
+                    <ListItem>Чат</ListItem>
+                    <ListItem>Кошик</ListItem>
                     <ListItem>Умови</ListItem>
                 </List>
             </Center>
             <Right>
-                <Title>Контактіні дані:</Title>
+                <Title>Контактні дані:</Title>
                 <ContactItem>
                     <Room style={{marginRight:"10px"}}/>
                     Адреса: вулиця Макухи, 2-Б, Івано-Франківськ, Івано-Франківська область, 76000
@@ -122,7 +121,7 @@ const Footer=()=>{
                     <Phone style={{marginRight:"10px"}}/>Телефон: 0342 559 189
                 </ContactItem>
                 <ContactItem>
-                    <MailOutline style={{marginRight:"10px"}}/>Email: agency@gmail.com
+                    <MailOutline style={{marginRight:"10px"}}/>Email: handmade_garden@gmail.com
                 </ContactItem>
                 <Payments src="https://clipground.com/images/credit-card-logos-png-15.png"/>
             </Right>
