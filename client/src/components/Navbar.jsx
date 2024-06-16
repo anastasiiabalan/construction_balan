@@ -53,9 +53,11 @@ const Center =styled.div`
   text-align: center;
 `;
 
-const Logo = styled.h1`
+const LogoText = styled.h1`
   font-weight: bold;
-  ${mobile({fontSize:"17px"})}
+  font-size: 20px;
+  ${mobile({fontSize:"25px"})}
+  
 
 `;
 
@@ -82,23 +84,29 @@ const Navbar=()=>{
                 <Left>
                     <Language>UA</Language>
                     <SearchContainer>
-                        <Input placeholder="Search"/>
+                        <Input placeholder="Пошук"/>
                         <SearchIcon style={{color:"grey", fontSize: 16}}/>
                     </SearchContainer>
                 </Left>
                 <Center>
                     <Link to={`/`}>
-                        <Logo>Агенство нерухомості</Logo>
+                        <LogoText>Садиба ручної роботи</LogoText>
                     </Link>
                 </Center>
                 <Right>
+                    <Link to={`/register`}>
+                        <MenuItem>Реєстрація</MenuItem>
+                    </Link>
                     <Link to={`login`}>
-                        <MenuItem>Увійти</MenuItem>
+                        <MenuItem>Вхід</MenuItem>
+                    </Link>
+                    <Link to={`chatWindow`}>
+                        <MenuItem>Чат</MenuItem>
                     </Link>
                     <Link to={`/cart`}>
                         <MenuItem>
-                            <Badge badgeContent={2} color="primary">
-                                <FavoriteIcon/>
+                            <Badge badgeContent={1} color="primary">
+                                <ShoppingCartOutlined/>
                             </Badge>
                         </MenuItem>
                     </Link>
