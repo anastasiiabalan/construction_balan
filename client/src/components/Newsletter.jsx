@@ -54,7 +54,7 @@ const Newsletter=()=>{
     return (
         <Container>
             <Title>Інформаційний бюлетень</Title>
-            <Desc>Отримуйте своєчасну інформацію про нові приміщення</Desc>
+            <Desc>Отримуйте своєчасну інформацію про нові вироби</Desc>
             <InputContainer>
                 <Input placeholder="Ваш email "/>
                 <Button>
