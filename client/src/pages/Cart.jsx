@@ -175,53 +175,42 @@ const Cart=()=>{
             <Navbar/>
             <Announcement/>
             <Wrapper>
-                <Title>Ваше Вподобане</Title>
-                <Top>
-                    <TopButton>Продовжуй шукати</TopButton>
-                    <TopTexts>
-                        <TopText>Вподобане(2)</TopText>
-                    </TopTexts>
-                </Top>
+                <Title>Ваша корзина</Title>
                 <Bottom>
                     <Info>
                         <Product>
                             <ProductDetail>
-                                <Image src="https://dim.lviv.ua/files/09-2018/ad2876/15382297501192883891_large.jpg"/>
+                                <Image src="https://optim.tildacdn.com/stor6237-6161-4733-b033-633763333834/-/format/webp/77801552.jpg"/>
                                 <Details>
-                                    <ProductName><b>Приміщення: </b>Трьохкімнатна квартира (оренда)</ProductName>
-                                    <ProductId><b>ID: </b>12456556</ProductId>
-                                    <ProductSize><b>Кількість кімнат: </b>3</ProductSize>
-                                    <ProductType><b>Тип: </b>Оренда</ProductType>
+                                    <ProductName><b>Виріб: </b>Круглий стіл із горіха та епоксидної смоли</ProductName>
+                                    <ProductId><b>ID: </b>25734</ProductId>
+                                    <ProductType><b>Тип: </b>Дерево</ProductType>
                                 </Details>
                             </ProductDetail>
                             <PriceDetail>
-                                <ProductAmountContainer>
-                                    <Add/>
-                                    <Remove/>
-                                </ProductAmountContainer>
-                                <ProductPrice>₴ 12000</ProductPrice>
+                                <ProductPrice>₴ 19 900</ProductPrice>
                             </PriceDetail>
                         </Product>
-                        <Hr/>
-                        <Product>
-                            <ProductDetail>
-                                <Image src="https://borisstudio.com/wp-content/webp-express/webp-images/uploads/2023/02/dizajn-dvuhkomnatnoj2-1.jpeg.webp"/>
-                                <Details>
-                                    <ProductName><b>Приміщення: </b>Двокімнатна квартира (продаж)</ProductName>
-                                    <ProductId><b>ID: </b>4573339939</ProductId>
-                                    <ProductSize><b>Кількість кімнат: </b>2</ProductSize>
-                                    <ProductType><b>Тип: </b>Продаж</ProductType>
-                                </Details>
-                            </ProductDetail>
-                            <PriceDetail>
-                                <ProductAmountContainer>
-                                    <Add/>
-                                    <Remove/>
-                                </ProductAmountContainer>
-                                <ProductPrice>60 000$</ProductPrice>
-                            </PriceDetail>
-                        </Product>
+
                     </Info>
+
+                    <Summary>
+                        <SummaryTitle>Оформлення замовлення</SummaryTitle>
+                        <SummaryItem>
+                            <SummaryItemText>Вартість замовлення</SummaryItemText>
+                            <SummaryItemPrice>₴ 19 900</SummaryItemPrice>
+                        </SummaryItem>
+                        <SummaryItem>
+                            <SummaryItemText>Доставка</SummaryItemText>
+                            <SummaryItemPrice>₴ 100</SummaryItemPrice>
+                        </SummaryItem>
+
+                        <SummaryItem type="total" >
+                            <SummaryItemText>До оплати: </SummaryItemText>
+                            <SummaryItemPrice>₴ 20 000</SummaryItemPrice>
+                        </SummaryItem>
+                        <Button>Оплатити безпечно</Button>
+                    </Summary>
                 </Bottom>
             </Wrapper>
             <Footer/>
