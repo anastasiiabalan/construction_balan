@@ -1,9 +1,5 @@
 import styled from "styled-components";
 import {mobile} from "../responsive"
-import { Routes, Route } from "react-router-dom";
-
-import React from "react";
-import AppRoutes from "../ChatComponents/AppRoutes";
 
 
 const Container = styled.div`
@@ -32,7 +28,7 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 `;
 
 const Input = styled.input`
@@ -40,6 +36,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 10px 0px;
   padding: 10px;
+  color: black;
 `;
 
 const Button = styled.button`
@@ -61,26 +58,17 @@ const Link = styled.a`
 
 const Login=()=>{
     return (
-        <div>
-            <AppRoutes />
-        </div>
-    )
-};
-
-export default Login;
-
-/*
-const Login=()=>{
-    return (
         <Container>
             <Wrapper>
-                <Title>SIGN IN</Title>
+                <Title>Вхід</Title>
                 <Form>
                     <Input placeholder="username"/>
                     <Input placeholder="password"/>
-                    <Button>LOG IN</Button>
-                    <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-                    <Link>CREATE A NEW ACCOUNT</Link>
+                    <Button>
+                       Увійти
+                    </Button>
+                    <Link>Не пам'ятаєте пароль?</Link>
+                    <Link to={`/`}>Реєстрація</Link>
                 </Form>
             </Wrapper>
         </Container>
@@ -88,5 +76,3 @@ const Login=()=>{
 }
 
 export default Login;
-
- */
