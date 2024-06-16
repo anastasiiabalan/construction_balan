@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement=()=>{
     return (
         <Container>
-            На роботу потрібні працівники !!!
+            На роботу потрібні митці та мисткині!
         </Container>
     )
 }
